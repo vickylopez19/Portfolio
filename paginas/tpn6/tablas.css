@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.table, td, th {
+    text-align: left;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.ocupar{
+    width: 100%;
+    height: 100%;
+}
+
+thead {
+    background-color: #ff0000;
+    color: white;
+}
+
+tbody:active {
+    background-color: #eaff00;
+}
+
+tfoot{
+    background-color: #40ff00;
+    color: white;
+}
+
+.center {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
