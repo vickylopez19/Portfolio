@@ -1,98 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ccs/style.css">
     <title>Portfolio Vicky</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <h1> <a href="#cabecera">Victoria Lopez</a></h1>
-            <div class="options"> 
-                <a href="portfolio.html">Portfolio</a>
-                <a href="sobremi.html">Sobre mí</a>
-                <a href="contactame.html">Contactáme</a>
-            </div>
+        <h1 style="color: white"><a href="#cabecera">VICTORIA LOPEZ</a></h1>
+        <nav id="navLink">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">Sobre mí</a>
+            <a href="#contacto">Cantáctame</a>
         </nav>
     </header>
 
     <section id="cabecera">
-       <div class="tarjeta">
-        <img src="img/portfolio.jpg" alt="imagen">
-        <h2>Victoria Lopez Estudiante </h2>
-       </div>
+        <div class="tarjeta">
+            <img src="imagenes/vicky.jpg" alt="imagen no encontrada">
+            <h2 style="color: white;">VICTORIA LOPEZ <br>Estudiante</h2>
+
+        </div>
     </section>
 
     <br>
 
     <section id="portfolio">
-    <div class="contenedor">
-        <div class="contenido">
-          <img src="" alt="">
-           <h3>TOP 5: Canciones de Taylor Swift</h3>
-           <p></p>
+        <div class="contenedor">
+            <div class="contenido">
+                <a href="paginas/Vicky/top5.html"><img src="img/Captura de pantalla 2023-08-10 210628.png" alt=""></a>
+                <h3>TOP 5: Canciones de Taylor Swift</h3>
+                <p>Mi primer página web, un top 5 de las canciones más escuchadas de Taylor Swift en Spotify.</p>
+            </div>
+            <div class="contenido">
+                <a href="paginas/viaje/viaje.html"> <img src="img/Captura de pantalla 2023-08-10 212156.png" alt=""></a>
+                <h3>Un viaje inesperado</h3>
+                <p> Crea tu propia historia,inspirado en emprender un viaje de aventuras.</p>
+            </div>
+            <div class="contenido">
+               <a href="paginas/Intento/copafem.html">  <img src="img/Captura de pantalla 2023-08-10 212426.png" alt=""></a>
+                <h3>Copa Mundial Femenina de Futbol 2023</h3>
+                <p>Está página cuenta con toda la infromación clave del mundial femenino 2023</p>
+            </div>
+            <div class="contenido">
+                <a href="paginas/tpn6/tablas.html"><img src="img/Captura de pantalla 2023-08-10 212834.png" alt=""> </a>
+                <h3>Tablas</h3>
+                <p>Tarea de tablas inspiradas(no copiadas) de Lucio, con poco css pero mucha data piola.</p>
+            </div>
+
+            <div class="contenido">
+                 <a href="paginas/Formulario/alfajores.html"> <img src="img/Captura de pantalla 2023-08-10 212644.png" alt=""></a>
+                <h3>Formulario: Alfajores</h3>
+                <p>Todos sabemos que los alfajores son la octava maravilla del mundo, 
+                    <br>pero,¿Hablamos del mismo alfajor?.
+                </p>
+            </div>
+            <div class="contenido">
+                <img src="img/work.png" alt="">
+                <h3>Proximamente</h3>
+                <p></p>
+            </div>
         </div>
-       <div class="contenido">
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
-       <div class="contenido">
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
-       <div class="contenido">
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
-       <div class="contenido">
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
-       <div class="contenido">
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
-    </div>
     </section>
 
     <section id="about">
-        <div class="contenedorchico"> 
-          <h2>sobre mi</h2>
-          <p>descripcion chat gpt</p>
+        <div class="contenedorchico">
+            <h2>SOBRE MÍ </h2>
+            <p>¡Hola! Soy Victoria Lopez, estudiante de Generacion T, curso con el que me encuentro adentrandome en el
+                mundo de la programación. Comencé el curso sin conocimiento previo, como así tampoco expectativas muy
+                marcadas.
+                Pero para mí sorpresa, en este timepo, he aprendido y obtenido grandes resutados.
+                Quizas no son las mejores páginas web, pero si la manera con la que un principiante como yo puede
+                aprender.</p>
         </div>
 
     </section>
 
 
     <section id="contacto">
-        <div class="contenedorchico"> 
-          <h2>esta es la informacion para contactarme</h2>
-          <form action="">
-            <label > Nombre: <input type="text" name="nombre" id=""></label>
-            <label > Numero de contacto: <input type="number" name="phone"></label>
-            <label > Por que queires contactarme? 
-                <textarea name="interes" id="" cols="10" rows="10"></textarea>
-            </label>
-          </form>
+        <div class="contenedorchico">
+            <h2> ESTÁ ES LA INFROMACIÓN PARA CONTÁCTARME</h2>
+            <form action="">
+                <label> Nombre:<br><input type="text" name="nombre" id=""></label>
+                <label> Numero de contacto:<br><input type="number" name="phone"></label>
+                <label> Por que quieres contactarme? <br>
+                    <textarea name="interes" id="" cols="10" rows="10" required
+                        placeholder="¿Por qué te gustaria comunicarte? :)"></textarea>
+                </label>
+            </form>
         </div>
 
     </section>
-    <hr style="margin-top: 5%;"> 
+    <hr style="margin-top: 5%;">
 
     <footer>
-        <p> Todos los derechos reservados Victoria Lopez</p>
-        <p> Mis redes 
-            <a><img src="" alt="logoinstagram" id="insta"></a> 
-            <a><img src="" alt="logofacebook" id="face"></a>
-            <a><img src="" alt="logotiktok" id="tiktok"></a>
+        <p> Mis redes
+            <a><img src="imagenes/instagram.jpg" alt="logoinstagram"></a>
+            <a><img src="imagenes/facebook.jpg" alt="logofacebook"></a>
+            <a><img src="imagenes/linkedin.jpg" alt="logolinkedin"></a>
+            <a><img src="imagenes/whatsapp.jpg" alt="logowhats"></a>
+            <a><img src="imagenes/gmail.png" alt="logogmail"></a>
         </p>
+        <p> © Todos los derechos reservados Victoria Lopez</p>
     </footer>
 </body>
+
 </html>
