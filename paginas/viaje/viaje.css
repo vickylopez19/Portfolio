@@ -70,12 +70,10 @@ footer{
 
   body{
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   }
   button{
     padding: 1%;
-    text-align: center;
     background-color: mediumpurple;
     border: none;
   }
@@ -83,4 +81,10 @@ footer{
     padding: 5px;
     font-size: 120;
   }
+  footer{
+    position: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
 }
