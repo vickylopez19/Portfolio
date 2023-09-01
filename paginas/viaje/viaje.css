@@ -66,3 +66,7 @@ footer{
   padding-bottom: 10px;
   font-family: ;
 }
+
+@media screen {
+  max-width: 480px;
+ }
