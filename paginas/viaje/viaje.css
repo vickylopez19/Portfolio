@@ -66,3 +66,20 @@ footer{
   padding-bottom: 10px;
   font-family: ;
 }
+@media (max-width: 700px;) {
+  body{
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  button{
+    padding: 1%;
+    text-align: center;
+    background-color: mediumpurple;
+    border: none;
+  }
+  p{
+    padding: 5px;
+    font-size: 120;
+}
